@@ -1,2 +1,16 @@
 # deadcode-pre-commit
 deadcode pre-commit for golang
+
+
+# example
+
+
+```yaml
+fail_fast: true
+default_install_hook_types: [pre-commit]
+repos:
+  - repo: git@github.com:fatelei/deadcode-pre-commit.git
+    rev: v1.0.1
+    hooks:
+      - id: deadcode
+```
