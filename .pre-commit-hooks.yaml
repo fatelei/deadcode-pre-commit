@@ -1,0 +1,6 @@
+- id: deadcode
+  name: deadcode
+  description: Finding unreachable functions with deadcode
+  entry: deadcode
+  language: golang
+  files: '\.go$'
