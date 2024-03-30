@@ -1,5 +1,5 @@
 # deadcode-pre-commit
-deadcode pre-commit for golang
+[deadcode](https://go.dev/blog/deadcode) pre-commit for golang
 
 
 # example
