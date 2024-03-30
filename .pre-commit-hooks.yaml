@@ -1,6 +1,6 @@
 - id: deadcode
   name: deadcode
   description: Finding unreachable functions with deadcode
-  entry: deadcode
-  language: golang
+  entry: run_deadcode.sh
+  language: 'script'
   files: '\.go$'
