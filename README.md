@@ -10,7 +10,7 @@ fail_fast: true
 default_install_hook_types: [pre-commit]
 repos:
   - repo: git@github.com:fatelei/deadcode-pre-commit.git
-    rev: v1.0.2
+    rev: v1.0.5
     hooks:
       - id: deadcode
 ```
