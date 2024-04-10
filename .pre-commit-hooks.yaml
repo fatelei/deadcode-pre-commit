@@ -3,4 +3,5 @@
   description: Finding unreachable functions with deadcode
   entry: run_deadcode.sh
   language: 'script'
-  files: '\.go$'
+  type: [text]
+  args: ["./..."]
