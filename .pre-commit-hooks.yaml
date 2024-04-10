@@ -3,5 +3,5 @@
   description: Finding unreachable functions with deadcode
   entry: run_deadcode.sh
   language: 'script'
-  type: [text]
+  types: [text]
   args: ["./..."]
